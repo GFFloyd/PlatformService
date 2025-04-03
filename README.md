@@ -3,7 +3,7 @@
 ## Descrição
 
 Este projeto tem como objetivo de estudar como criar uma aplicação baseada em microsserviços em .NET, baseado em um curso de Les Jackson. 
-O curso usa o .NET versão 5 e neste projeto estou usando as versões mais novas do .NET e das dependências, como o Entity Framework e o AutoMapper.
+O curso usa o .NET versão 5 e neste projeto estou usando as versões mais novas do .NET (versão 9) e das dependências, como o Entity Framework e o AutoMapper.
 
 ## Conceitos Usados no Projeto
 Alguns conceitos essenciais deste projeto são:
