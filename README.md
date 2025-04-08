@@ -13,3 +13,8 @@ Alguns conceitos essenciais deste projeto são:
 - Empregar o padrão API Gateway para rotear os serviços;
 - Construir mensageria síncrona entre os serviços (HTTP e gRPC);
 - Construir mensageria assíncrona entre os serviços usando barramento de eventos (RabbitMQ).
+
+### Observações do Projeto
+Como usarei Kubernetes neste projeto, deixei um diretório chamado K8s dentro do projeto PlatformService, este diretório ficarão os manifestos
+YAML do Kubernetes, como o Visual Studio não tem muita compatibilidade com Kubernetes (até onde eu sei), eu só deixei os manifests ali para
+versionamento, pois uso o Kubernetes via WSL e faço as mudanças dentro do cluster por terminal no WSL.
