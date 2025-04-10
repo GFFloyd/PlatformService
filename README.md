@@ -18,3 +18,6 @@ Alguns conceitos essenciais deste projeto são:
 Como usarei Kubernetes neste projeto, deixei um diretório chamado K8s dentro do projeto PlatformService, este diretório ficarão os manifestos
 YAML do Kubernetes, como o Visual Studio não tem muita compatibilidade com Kubernetes (até onde eu sei), eu só deixei os manifests ali para
 versionamento, pois uso o Kubernetes via WSL e faço as mudanças dentro do cluster por terminal no WSL.
+
+Tive que criar um outro repositório com outra parte deste projeto, onde ficará a API CommandService, link do repo:
+https://github.com/GFFloyd/CommandService
