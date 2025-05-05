@@ -21,7 +21,7 @@ namespace PlatformService.Controllers
 		{
 			Console.WriteLine("Getting Platforms");
 
-			IEnumerable<Models.Platform> platformItems = _platformRepo.GetAllPlatforms();
+			IEnumerable<Platform> platformItems = _platformRepo.GetAllPlatforms();
 			return Ok(_mapper.Map<IEnumerable<PlatformReadDTO>>(platformItems));
 		}
 
